@@ -1,3 +1,19 @@
+# Set up the App
+
+1. ng new alert-app
+2. npm install ngx-toastr --save
+3. npm install @angular/animations --save
+4. "styles": [
+   "src/styles.css",
+   "node_modules/ngx-toastr/toastr.css"
+]
+5. https://blog.jscrambler.com/how-to-create-angular-toastr-notifications/
+
+# Run the app
+1. npm install
+2. ng serve
+
+
 # AngularAlertApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
